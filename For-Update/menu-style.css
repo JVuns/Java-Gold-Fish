@@ -24,7 +24,7 @@
 
 .header-background{
     height: 700px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) ), url("Resources/home-background-alt.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) ), url("menu-style.css");
     background-position: center;
     background-size: cover;
     position: relative;
