@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+* a{
+    color: seashell;
+    text-decoration: none;
+}
+
+.header-logo{
+    font-size: 72px;
+    padding: 0;
+    margin: 30px 0px 0px 30px;
+    position: absolute;
+    z-index: 1;
+    color: seashell;
+}
+
+.header-container{
+    margin:0px 0px 0px 0px;
+    height: 700px;
+}
+
+.header-background{
+    height: 700px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) ), url("Resources/home-background-alt.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-nav{
+    top: 50px;
+    width: 50%;
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.header-nav ul li{
+    float: left;
+    margin-left: 100px;
+    list-style-type: none;
+}
