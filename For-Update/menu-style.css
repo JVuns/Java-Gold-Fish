@@ -77,36 +77,115 @@
     color: black
 }
 
-.form{
+.content-container{
+    position: relative;
+    height: 500px;
     width: 100%;
-    height: 260px;
-    background: rgb(109, 144, 179)
+    background-color: white;
 }
 
-.form form{
-    margin-left: 40px;
-    padding-top: 50px;
+.slideshow-container{
+    position: relative;
+    margin: 50px 50px 50px 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1420px;
+    height: 945px;
+}
+
+.slideshow-button{
+    left: 50%;
+    position: relative;
+    align-items: center;
+}
+
+.slideshow-button button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.slideshow-picture img{
+    position: absolute;
+    display: none;
+    width: 1420px;
+    height: 945px;
+}
+
+.slideshow-button{
+    left: 0;
+    width: 100%;
+}
+
+.slideshow-button-direction{
+    width: 100%;
+    position: relative; 
+}
+
+.slideshow-button-direction .left{
+    left: 0;
+    position: absolute;
+}
+
+.slideshow-button-direction .right{
+    right: 0;
+    position: absolute;
+}
+
+.slideshow-numeric-button{
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 260px;
+    background: rgb(109, 144, 179);
+    height: fit-content;
+}
+
+.form{
+    padding: 50px 50px 50px 50px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .menu-bar-mini{
     z-index: 1;
     transform: translateY(-50%);
-    color: white    ;
+    color: white;
 }
 
 .form h2{
-    padding: 10px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    font-size: 50px;
 }
 
-.form button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 22px;
+.form-table{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.form-table td{
+    padding-right: 30px;
+}
+
+.footer-bottom{
+    position: absolute;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0px 10px 0;
+}
+
+.indicator:hover{
+    color: honeydew;
+    background-color: gray;
+    transition: 200ms;
+}
+
+.indicator:active{
+    color: black;
+    background-color: tomato;
+    transition: 200ms;
 }

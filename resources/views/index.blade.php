@@ -64,7 +64,8 @@
             }
         </style>
     </head>
-    <body>
+
+    <body >
         <div>
             <div class="header-container header-background">
                 <div class="header-logo"><p>Java Gold Fish</p></div>
@@ -109,36 +110,86 @@
                     <span class="menu-bar-mini" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
                 </div>    
                 <script>
-                    function openNav() {
-                    document.getElementById("mySidenav").style.width = "300px";
-                    document.getElementById("main").style.marginLeft = "-250px";
-                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-                    }
-                    
-                    function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                    document.getElementById("main").style.marginLeft= "0";
-                    document.body.style.backgroundColor = "white";
-                    }
                 </script>
                 <!--Sidenav-->
             </div>
-            <div class="content-container">
+            <div class="slideshow-container">
                 <div class="Options">
+                    <div class="slideshow-picture">
+                        <img class="mySlides" src="/CSS/Resources/Oranda.jpg" style="width:100%">
+                        <img class="mySlides" src="Resources/Ranchu.jpg" style="width:100%">
+                        <img class="mySlides" src="Resources/Ryukin.jpg" style="width:100%">
+                        <img class="mySlides" src="Resources/Demekin.jpg" style="width:100%">
+                        <img class="mySlides" src="Resources/Unik.jpg" style="width:100%">
+                    </div>
 
+                    <div class="slideshow-button">
+                        <div class="slideshow-button-direction">
+                            <button class="left" onclick="plusDivs(-1)">❮</button>
+                            <button class="right" onclick="plusDivs(1)">❯</button>
+                        </div>
+                        <div class="slideshow-numeric-button">
+                            <button class="indicator" onclick="currentDiv(1)">1</button> 
+                            <button class="indicator" onclick="currentDiv(2)">2</button> 
+                            <button class="indicator" onclick="currentDiv(3)">3</button> 
+                        </div>
+                    </div>
+                    <script src="JS/menu.js">
+                    </script>
                 </div>
             </div>
+                <!--Footer-->
             <div class="footer">
                 <div class="form">
                     <div>
                         <h2>Contact Us</h2>
                     </div>
-                    <form action="">
-                        <lable for="fname">Nama </lable><input type="text"><br><br>
-                        <lable for="fname">Email </lable><input type="text"><br><br>
-                        <lable for="fname">No Hp</lable><input type="text"><br><br>
-                        <button>Submit</button>
-                    </form>
+                    <table class="form-table">
+                        <tr>
+                            <td>
+                                Contact Person
+                            </td>
+                            <td>
+                                Edy Santoso
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mobile Phone
+                            </td>
+                            <td>
+                                +62 811591111 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email
+                            </td>
+                            <td>
+                                edys.javagoldfish@gmail.com 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Whatsapp 
+                            </td>
+                            <td>
+                                +62 811591111 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Admin 
+                            </td>
+                            <td>
+                                +62 811591111 
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-bottom">
+                            <p> Jl.Lingkar Luar Komplek PTB Blok R 1 no.5 Duren Sawit, Jakarta Timur, Indonesia </p>
+                            <p> © 2022 javagoldfish.com | Ikan mas koki </p>
                 </div>
             </div>
         </div>
