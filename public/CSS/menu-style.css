@@ -173,9 +173,12 @@
 .footer-bottom{
     position: absolute;
     text-align: center;
+    color: white;
+    width: 102%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 0px 10px 0;
+    background-color: black;
 }
 
 .indicator:hover{

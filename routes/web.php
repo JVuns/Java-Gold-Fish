@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/About', function () {
-    return view('about');
+Route::get('/fish', function () {
+    return view('fish/Oranda');
 });
 
 Route::get('/Fish', function () {
