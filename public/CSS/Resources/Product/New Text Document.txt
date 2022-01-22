@@ -1,0 +1,181 @@
+Jenis : Oranda
+Kelas : Junior
+Ukuran : 13cm
+Harga : rp. 1,-
+Januari 2022
+Status : Available
+
+Jenis : Oranda
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : Oranda
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : Oranda
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu 
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : junior
+Ukuran : 13cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Input : Januari 2022
+Status : Available
+
+Jenis : Oranda rosetail
+Kelas : Junior
+Ukuran : 13cm
+Harga : rp. 1,-
+Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : Junior
+Ukuran : 15cm
+Harga : rp. 1,-
+Januari 2022
+Status : Available
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : oranda
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 12cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : oranda
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 10cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 10cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 9cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : ranchu
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022
+
+Jenis : oranda
+Kelas : baby
+Ukuran : 11cm
+Harga : rp. 1,-
+Status : Available
+Upload : Januari 2022

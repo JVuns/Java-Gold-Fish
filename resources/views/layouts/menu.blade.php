@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Java Gold Fish</title>
+        <title>Java GoldFish</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="CSS/menu-style.css">
+        <link rel="stylesheet" href="CSS/image-style.css">
         <style>
             @media (max-width:1400px){
                 .header-nav{
@@ -69,43 +71,66 @@
     <body >
         <div>
             <div class="header-container header-background">
-                <div class="header-logo"><p>Java Gold Fish</p></div>
+                <a href="/"><div class="header-logo"><p>Java GoldFish</p></div></a>
                 <!-- <div class="header-background"></div> -->
                 <div class="header-nav">
                     <ul>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="">Home</a></li>
                         <li>
-                            <div class="dropdown"><a href="welcome.blade.php">Gold Fish</a>
+                            <div class="dropdown"><a href="/">Goldfish</a>
                                 <div class="dropdown-content">
                                     <ul>
                                         <li>
-                                            <a src="welcome.php">Ranchu</a>
+                                            <a href="/Oranda">Oranda</a>
                                         </li>
                                         <li>
-                                            Tosakin
+                                            <a href="/Ranchu">Ranchu</a>
                                         </li>
                                         <li>
-                                            Shukin
+                                            <a href="/Ryukin">Ryukin</a>
                                         </li>
                                         <li>
-                                            Tamasaba
+                                            <a href="/Demekin">Demekin</a>
                                         </li>
                                         <li>
-                                            Oranda
+                                            <a href="/Unik">Unik</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Lain">Lain - lain</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
                     </ul>
                 </div>
                 <!--Sidenav-->
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="AboutUs.html">About Us</a>
-                    <a href="Contact.html">Contact Us</a>
-                    <a href="#">Gold Fish</a>
+                    <a href="/About">About Us</a>
+                    <a href="#footer">Contact Us</a>
+                    <a href="#">Goldfish</a>
+                        <ul>
+                            <a href="/Oranda">
+                                -Oranda
+                            </a>
+                            <a href="/Ranchu">
+                                -Ranchu
+                            </a>
+                            <a href="/-Ryukin">
+                                -Ryukin
+                            </a>
+                            <a href="/Demekin">
+                                -Demekin
+                            </a>
+                            <a href="/Unik">
+                                -Unik
+                            </a>
+                            <a href="/Lain">
+                                -Lain-Lain
+                            </a>
+                        </ul>
                     </div>
                     <div id="main">
                     <span class="menu-bar-mini" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
@@ -113,6 +138,10 @@
                 <script>
                 </script>
                 <!--Sidenav-->
+                <div class="button-container">
+                <a class='about' href='/About'>About Us</a>
+                <a class='ketentuan' href='/Ketentuan'>Ketentuan</a>
+                </div>
             </div>
                 @yield('section')
                 <!--Footer-->
@@ -164,7 +193,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="footer-bottom">
+                <div class="footer-bottom" id="footer">
                             <p> Jl.Lingkar Luar Komplek PTB Blok R 1 no.5 Duren Sawit, Jakarta Timur, Indonesia </p>
                             <p> © 2022 javagoldfish.com | Ikan mas koki </p>
                 </div>

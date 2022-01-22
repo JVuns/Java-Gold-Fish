@@ -5,7 +5,7 @@
     <div class="Options">
         <div class="slideshow-picture">
             <img class="mySlides" src="CSS/Resources/Oranda.jpg" style="width:100%">
-            <img class="mySlides" src="CSS/Resources/Oranda.jpg" style="width:100%">
+            <img class="mySlides" src="CSS/Resources/Product/1.jpg" style="width:100%">
             <img class="mySlides" src="CSS/Resources/Oranda.jpg" style="width:100%">
             <img class="mySlides" src="CSS/Resources/Oranda.jpg" style="width:100%">
             <img class="mySlides" src="CSS/Resources/Oranda.jpg" style="width:100%">

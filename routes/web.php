@@ -18,10 +18,41 @@ Route::get('/', function () {
 });
 
 
-Route::get('/fish', function () {
+Route::get('/Oranda', function () {
     return view('fish/Oranda');
 });
 
-Route::get('/Fish', function () {
-    return view('fish');
+Route::get('/Ranchu', function () {
+    return view('fish/Ranchu');
+});
+
+
+Route::get('/Ryukin', function () {
+    return view('fish/Ryukin');
+});
+
+
+Route::get('/Demekin', function () {
+    return view('fish/Demekin');
+});
+
+
+Route::get('/Unik', function () {
+    return view('fish/Unik');
+});
+
+Route::get('/Lain', function () {
+    return view('fish/Lain');
+});
+
+Route::get('/Contact', function() {
+    return view('misc/contact');
+});
+
+Route::get('/About', function() {
+    return view('misc/about');
+});
+
+Route::get('/Ketentuan', function() {
+    return view('misc/ketentuan');
 });
