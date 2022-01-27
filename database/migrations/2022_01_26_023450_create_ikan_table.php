@@ -21,6 +21,7 @@ class CreateIkanTable extends Migration
             $table->string('harga');
             $table->string('input');
             $table->string('status');
+            $table->string('ppath');
             $table->timestamps();
         });
     }

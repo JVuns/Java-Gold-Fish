@@ -15,6 +15,7 @@ class Ikan extends Model
         'ukuran',
         'harga',
         'input',
-        'status'
+        'status',
+        'ppath'
     ];
 }

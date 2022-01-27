@@ -8,7 +8,7 @@
             @foreach ($ikan as $item)
             <div class="product-box">
                 <div class="img-box">
-                    <img src="CSS/Resources/Product/1.jpg">
+                    <img src="upload/{{ $item->ppath }}">
                 </div>
                 <div class="text-box">
                     <p>

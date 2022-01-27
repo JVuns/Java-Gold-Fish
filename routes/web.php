@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('add-ikan', [IkanController::class, 'create']);
 Route::post('add-ikan', [IkanController::class, 'store']);
+Route::post('add-ikan-picture', [IkanController::class, 'picture']);
 Route::get('ikan', [IkanController::class, 'index']);
 
 Route::get('/', function () {
@@ -24,9 +25,10 @@ Route::get('/', function () {
 });
 
 Route::get('/a', function () {
-    return view('form');
+    $picPath = "None";
+    return view('form', compact('picPath'));
 });
-
+ 
 Route::get('/Oranda', function () {
     return view('fish/Oranda');
 });
