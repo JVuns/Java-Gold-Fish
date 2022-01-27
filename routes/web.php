@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IkanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get('add-ikan', [IkanController::class, 'create']);
+Route::post('add-ikan', [IkanController::class, 'store']);
+Route::get('ikan', [IkanController::class, 'index']);
+
 Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/a', function () {
+    return view('form');
+});
 
 Route::get('/Oranda', function () {
     return view('fish/Oranda');
